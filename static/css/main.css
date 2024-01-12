@@ -1,0 +1,47 @@
+/* All pages */
+body {
+    background: #13274F;
+}
+
+h1 {
+    color: white; }
+
+/* Home */
+#divmapa{
+    background: #FEBE10; 
+    border-radius: 5%; }
+#buttonmapa{
+    border-radius: 5%; 
+    background: #002244; 
+    color: white; }
+
+/* CSS Map - Dark Mode */
+/*.leaflet-popup-content,*/
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+    filter: invert(1) hue-rotate(200deg) brightness(95%) contrast(90%); } 
+
+/* CSS Map */   
+#map { 
+    position: absolute;           
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+/* CSS Map Popup */
+#namepopup{
+    text-align: center;
+    color: #161616; }
+/* CSS Boton Map */
+#btpopup{
+    border-radius: 5%; 
+    background: #002244; 
+    color: white; }
+
+/* LOGIN */
+#submitButton{
+    background-color: #FEBE10;
+    border-color: #FEBE10;
+}
